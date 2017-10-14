@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^rest/(.*)$ app/rest/exec.php?zuwujhd=$1&%{QUERY_STRING} [L]
+</IfModule>

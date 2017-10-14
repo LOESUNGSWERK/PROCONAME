@@ -1,0 +1,13 @@
+{
+  "require": {
+    "twig/twig": "^1.33"
+  },
+  "autoload": {
+    "psr-4": {
+      "LwIo\\": "app/io/src",
+      "LwCore\\": "app/core",
+      "LwModels\\": "app/models",
+      "LwRest\\": "app/rest"
+    }
+  }
+}
